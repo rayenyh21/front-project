@@ -1,0 +1,52 @@
+h3, h2 {
+  color: gold;
+  background-color: black;
+  display: inline;
+}
+.Education_time{
+  color :black ;
+  background-color: gold;
+}
+li{
+  color: rgb(0, 0, 0);
+
+}
+a {
+  text-decoration: none; /* Remove underline from the link */
+  color: black; /* Change link color if desired */
+}
+
+a:hover {
+  text-decoration: underline; /* Optional: underline on hover */
+}
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Content container */
+.box, .articles, .images {
+  padding: 20px;
+}
+
+/* Footer styles */
+#fe {
+  background-color:black;
+  text-align: center;
+  padding: 10px;
+  color: gold;
+  margin-top: auto;
+}
